@@ -21,7 +21,7 @@ header{
 	background: #89898b;
 	height: 100vh;
 	display: flex;
-	min-height: 550px;
+	min-height: 600px;
 }
 
 .intro-content{
@@ -34,25 +34,28 @@ header{
 }
 
 .intro-content img{
-	margin: 0 0 53px 0;
+	margin: 0 0 52px 0;
 }
 
 .intro-content span{
 	font-weight: 400;
 	font-size: 15px;
 	color: #ffffff;
-	margin: 0 0 54px 2px;
+	margin: 0 0 42px 2px;
 	letter-spacing: -0.23px;
 	display: block;
 	text-align: center;
+	line-height: 20px;
 }
 
 .intro-content h1{
 	font-weight: 300;
 	font-size: 40px;
 	color: #ffe600;
-	margin: 0 0 117px 2px;
+	margin: 0 0 107px 2px;
 	letter-spacing: 2.2px;
+	line-height: 40px;
+	text-align: center;
 }
 
 .intro-content .intro-button{
@@ -61,7 +64,7 @@ header{
 	color: #ffffff;
 	border: 1px solid #ffe600;
 	padding: 21px 85px 23px 86px;
-	margin: 0 0 49px -2px;
+	margin: 0 0 49px -3px;
 	letter-spacing: -0.6px;
 	line-height: 17px;
 	text-decoration: none;
@@ -668,7 +671,6 @@ header{
 	line-height: 23px;
 	color: #ffffff;
 }
-
 
 .button input{
 	width: 970px;
